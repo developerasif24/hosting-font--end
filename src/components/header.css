@@ -1,0 +1,66 @@
+/* start code */
+.menu-header {
+    padding: 17px 0;
+}
+.sub-menu {
+  margin-top: 12px;
+}
+.nav-menu-top{
+    color: #0a2627;
+    text-decoration: none;
+    transition: .4s ease;
+    padding: 8px 15px;
+    text-transform: capitalize;
+    font-size: 1.2em;
+  }
+  .nav-menu-top:hover{
+    color: rgb(255, 71, 102);
+  }
+  .login-btn {
+    background: rgb(255, 71, 102);
+    color: #fff;
+    padding: 5px 6px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    border: 0;
+    margin-top: 7px;
+}
+.login-btn span{
+    margin-left: 3px;
+}
+.call-now p a {
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 10px;
+    display: inline-block;
+  color: #000;
+  font-weight: bold;
+}
+
+
+
+/* bgmode button */
+.bgMode {
+  position: fixed;
+  top: 7%;
+  right: 18px;
+  z-index: 99999;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 47px;
+  display: inline-block;
+  border: 2px solid #ff0047;
+  color: #261f20;
+  background: #fff;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+   
+  }
